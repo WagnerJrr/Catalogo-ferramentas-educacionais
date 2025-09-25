@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDUCAÇÃO TECNOLÓGICA - Catálogo de Ferramentas Educacionais</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #dadada;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      position: sticky; 
+      top: 0;
+    }
+    main {
+      padding: 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .filtros {
+      margin-bottom: 1rem;
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .badge {
+      display: inline-block;
+      background-color: #0077cc;
+      color: white;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      margin-right: 5px;
+    }
+    .link {
+      display: inline-block;
+      margin-top: 0.5rem;
+      text-decoration: none;
+      background-color: #0077cc;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EDUCAÇÃO TECNOLÓGICA</h1>
+    <p>Catálogo de Ferramentas Educacionais Gratuitas</p>
+  </header>
+  <main>
+    <section class="filtros">
+      <h2>Filtros (Exemplo Visual)</h2>
+      <label for="" tupe=""></label>
+      <label><input type="checkbox"> Matemática</label>
+      <label><input type="checkbox"> Computação</label>
+      <label><input type="checkbox"> Multidisciplinar</label>
+      <label><input type="checkbox"> Física</label>
+      <label><input type="checkbox"> Ciências</label>
+      <label><input type="checkbox"> História</label>
+      <label><input type="checkbox"> Geografia</label>
+      <label><input type="checkbox"> Liguagens</label>
+      <label><input type="checkbox"> Artes</label>
+      <label><input type="checkbox"> Química</label> <br><br>
+      <label><input type="checkbox"> Gestão de Tarefas</label>
+      <label><input type="checkbox"> Biologia</label>
+    </section>
+
+    <h2>Plataformas de Aprendizagem Online</h2>
+
+    <section class="grid">
+      <div class="card">
+        <h3>Khan Academy</h3>
+        <span class="badge">Multidisciplinar</span>
+        <span class="badge">+10 anos</span>
+        <p>Plataforma com conteúdos interativos de matemática, ciências, programação, história, economia e mais.</p>
+        <a class="link" href="https://pt.khanacademy.org/" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>Google Sala de Aula</h3>
+        <span class="badge">Multidisciplinar</span>
+        <span class="badge">+8 anos</span>
+        <p>Sistema de gerenciamento de atividades e comunicação entre alunos e professores.</p>
+        <a class="link" href="https://classroom.google.com/?pli=1" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>Moodle</h3>
+        <span class="badge">Multidisciplinar</span>
+        <span class="badge">+12 anos</span>
+        <p>Ambiente virtual de aprendizagem para criação de cursos, fóruns, testes online e acompanhamento de desempenho.</p>
+        <a class="link" href="https://moodle.com/pt-br/" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>Padlet</h3>
+        <span class="badge">Multidisciplinar</span>
+        <span class="badge">+10 anos</span>
+        <p>Mural colaborativo online</p>
+        <a class="link" href="https://padlet.com/" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>GeoGebra</h3>
+        <span class="badge">Matemática, Física</span>
+        <span class="badge">+12 anos</span>
+        <p>Usado para visualização de gráficos, geometria, álgebra, estatística e cálculo.</p>
+        <a class="link" href="https://www.geogebra.org/" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>Code.org</h3>
+        <span class="badge">Computação</span>
+        <span class="badge">+12 anos</span>
+        <p>Plataforma gratuita para ensinar programação e pensamento computacional, com cursos interativos e jogos.</p>
+        <a class="link" href="https://code.org/pt-BR" target="_blank">Acessar</a>
+      </div>
+    </section>
+
+    <h2>Ferramentas de Criação e Design</h2>
+
+    <section class="grid">
+      <div class="card">
+        <h3>Canva for Education</h3>
+        <span class="badge">Artes, Línguagens</span>
+        <span class="badge">+10 anos</span>
+        <p>Ferramenta de design para criação de apresentações, cartazes e materiais didáticos.</p>
+        <a class="link" href="https://www.canva.com/pt_br/" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>Genially</h3>
+        <span class="badge">História, Geografia, Ciências</span>
+        <span class="badge">+10 anos</span>
+        <p>Plataforma para criação de conteúdos interativos.</p>
+        <a class="link" href="https://genially.com/pt-br/" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>Book Creator</h3>
+        <span class="badge">Linguagens</span>
+        <span class="badge">+9 anos</span>
+        <p>Ferramenta para criar livros digitais</p>
+        <a class="link" href="https://bookcreator.com/" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>LibreOffice</h3>
+        <span class="badge">Português, Matemática</span>
+        <span class="badge">+10 anos</span>
+        <p>Pacote de escritório gratuito</p>
+        <a class="link" href="https://pt-br.libreoffice.org/" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>Tinkercad</h3>
+        <span class="badge">Matemática, Física</span>
+        <span class="badge">+10 anos</span>
+        <p>Plataforma online para design 3D e eletrônica (Arduino), gratuita.</p>
+        <a class="link" href="https://www.tinkercad.com/" target="_blank">Acessar</a>
+      </div>
+    </section>
+
+    <h2>Gamificação e Jogos Educativos</h2>
+
+    <section class="grid">
+      <div class="card">
+        <h3>Wordwall</h3>
+        <span class="badge">Línguagens, Matemática</span>
+        <span class="badge">+8 anos</span>
+        <p>Criação de atividades gamificadas para revisar conteúdos.</p>
+        <a class="link" href="https://wordwall.net/pt" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>Prodigy</h3>
+        <span class="badge">Matemática</span>
+        <span class="badge">7 - 15 anos</span>
+        <p>Jogo de RPG para ensinar matemática de forma divertida.</p>
+        <a class="link" href="https://www.prodigygame.com/main-en" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>ClassDojo</h3>
+        <span class="badge">Multidisciplinar</span>
+        <span class="badge">5 - 12 anos</span>
+        <p>Plataforma de gestão de sala de aula baseada em pontos e recompensas.</p>
+        <a class="link" href="https://www.classdojo.com/pt-br/" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>Minecraft Education</h3>
+        <span class="badge">Ciências, Geografia, Computação</span>
+        <span class="badge">+8 anos</span>
+        <p>Versão educacional do Minecraft, usada para ensinar programação, ciências e trabalho em equipe</p>
+        <a class="link" href="https://education.minecraft.net/pt-br" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>Educandy</h3>
+        <span class="badge">Linguagens</span>
+        <span class="badge">6 - 12 anos</span>
+        <p>Criação de jogos simples como palavras cruzadas, questionários e jogos de memória.</p>
+        <a class="link" href="https://www.educandy.com/" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>Scratch</h3>
+        <span class="badge">Computação, Matemática</span>
+        <span class="badge">+9 anos</span>
+        <p>Plataforma de programação em blocos, que permite que crianças e adolescentes criem histórias interativas, jogos e animações.</p>
+        <a class="link" href="https://scratch.mit.edu/" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>Quizizz</h3>
+        <span class="badge">Multidisciplinar</span>
+        <span class="badge">+9 anos</span>
+        <p>Plataforma de quizzes competitivos e colaborativos.</p>
+        <a class="link" href="https://quizizz.com/" target="_blank">Acessar</a>
+    </div>
+
+    <div class="card">
+        <h3>Blooket</h3>
+        <span class="badge">Multidisciplinar</span>
+        <span class="badge">+8 anos</span>
+        <p>Plataforma de jogos educativos personalizáveis.</p>
+        <a class="link" href="https://www.blooket.com/" target="_blank">Acessar</a>
+    </div>
+
+    <div class="card">
+        <h3>Ludo Educativo</h3>
+        <span class="badge">Multidisciplinar</span>
+        <span class="badge">6 - 15 anos</span>
+        <p>Jogos e aplicativos gratuitos para crianças, abordando diversas disciplinas.</p>
+        <a class="link" href="https://www.ludoeducativo.com.br/" target="_blank">Acessar</a>
+    </div>
+
+    <div class="card">
+        <h3>Educaplay</h3>
+        <span class="badge">Geografia, História, Línguas</span>
+        <span class="badge">+8 anos</span>
+        <p>Ferramenta para criar atividades interativas como sopas de letras, mapas, quizzes e relacionamentos.</p>
+        <a class="link" href="https://www.educaplay.com/" target="_blank">Acessar</a>
+    </div>
+
+    <div class="card">
+        <h3>PurposeGames</h3>
+        <span class="badge">Geografia, Biologia</span>
+        <span class="badge">+8 anos</span>
+        <p>Plataforma para criar jogos de localização, quizzes e questionários</p>
+        <a class="link" href="https://www.purposegames.com/" target="_blank">Acessar</a>
+    </div>
+
+
+    </section>
+
+    <h2>Pesquisa e Recursos Didáticos</h2>
+
+    <section class="grid">
+      <div class="card">
+        <h3>Google Arts & Culture</h3>
+        <span class="badge">Artes, História, Geografia</span>
+        <span class="badge">+10 anos</span>
+        <p>Acervo digital de museus, obras de arte e experiências imersivas.</p>
+        <a class="link" href="https://artsandculture.google.com/" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>SciELO</h3>
+        <span class="badge">Multidisciplinar</span>
+        <span class="badge">+15 anos</span>
+        <p>Plataforma para criação de conteúdos interativos.</p>
+        <a class="link" href="https://www.scielo.br/" target="_blank">Acessar</a>
+      </div>
+
+      <div class="card">
+        <h3>PhET Simulações</h3>
+        <span class="badge">Biologia, Química, Física</span>
+        <span class="badge">+10 anos</span>
+        <p>Simulações interativas de física, química e biologia</p>
+        <a class="link" href="https://phet.colorado.edu/pt_BR/" target="_blank">Acessar</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
