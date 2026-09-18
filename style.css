@@ -1,0 +1,123 @@
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #dadada;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    main {
+      padding: 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .filtros {
+      margin-bottom: 1rem;
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    .filtros h2 {
+      margin-top: 0;
+    }
+
+    .filtros label {
+      display: inline-block;
+      margin: 5px 10px 5px 0;
+      cursor: pointer;
+    }
+
+    .filtros input {
+      cursor: pointer;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .badge {
+      display: inline-block;
+      background-color: #0077cc;
+      color: white;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+
+    .link {
+      display: inline-block;
+      margin-top: 0.5rem;
+      text-decoration: none;
+      background-color: #0077cc;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+    }
+
+    .link:hover {
+      background-color: #005fa3;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      padding: 1rem;
+    }
+
+    .categoria {
+      margin-top: 2rem;
+    }
+
+    .sem-resultados {
+      display: none;
+      background-color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .limpar-filtros {
+      margin-top: 10px;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 5px;
+      background-color: #555;
+      color: white;
+      cursor: pointer;
+    }
+
+    .limpar-filtros:hover {
+      background-color: #333;
+    }
