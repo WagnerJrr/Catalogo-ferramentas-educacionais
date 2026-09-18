@@ -19,7 +19,7 @@ const filtros = document.querySelectorAll(
 
     function aplicarFiltros() {
 
-      // Obtém todos os filtros selecionados
+      //obtém todos os filtros selecionados
       const filtrosSelecionados = Array.from(filtros)
         .filter(filtro => filtro.checked)
         .map(filtro => filtro.value);
@@ -28,15 +28,14 @@ const filtros = document.querySelectorAll(
       let quantidadeVisivel = 0;
 
 
-      // Percorre todos os cards
+      //Percorre todos os cards
       cards.forEach(card => {
 
         const categoriasCard =
           card.dataset.categorias.split(' ');
 
 
-        // Se nenhum filtro estiver selecionado,
-        // mostra todos os cards
+        //Se nenhum filtro estiver selecionado mostra todos os cards
         if (filtrosSelecionados.length === 0) {
 
           card.style.display = '';
@@ -47,8 +46,7 @@ const filtros = document.querySelectorAll(
         }
 
 
-        // Verifica se o card possui alguma das
-        // categorias selecionadas
+        //verifica se o card possui alguma das categorias selecionadas
         const corresponde =
           filtrosSelecionados.some(filtro =>
             categoriasCard.includes(filtro)
@@ -70,7 +68,7 @@ const filtros = document.querySelectorAll(
       });
 
 
-      // Esconde títulos de categorias que ficaram vazias
+      //esconde títulos de categorias que ficaram vazias
       categorias.forEach(categoria => {
 
         const cardsVisiveis =
@@ -91,7 +89,7 @@ const filtros = document.querySelectorAll(
       });
 
 
-      // Mostra ou esconde mensagem de nenhum resultado
+      //mostra ou esconde mensagem de nenhum resultado
       if (quantidadeVisivel === 0) {
 
         mensagemSemResultados.style.display = 'block';
@@ -105,7 +103,7 @@ const filtros = document.querySelectorAll(
     }
 
 
-    // Função para limpar todos os filtros
+    //função para limpar todos os filtros
     function limparFiltros() {
 
       filtros.forEach(filtro => {
